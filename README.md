@@ -29,4 +29,5 @@ them in the process. ssg does this by doing a deep copy of the input directory
 to the output directory, and when it sees a file extension for which there is a
 plugin, it calls that plugin instead of doing a straight copy. There's a
 markdown plugin that comes in the box, and I'm happy to take pull requests to
-add other plugins as well.
+add other plugins as well. Look in config.py to see how to add plugins, I've
+tried to keep it easy.
